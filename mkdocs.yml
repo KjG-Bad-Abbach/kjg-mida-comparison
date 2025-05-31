@@ -19,5 +19,9 @@ theme:
     # - navigation.indexes
     - toc.follow
     - toc.integrate
+    - search.suggest
 markdown_extensions:
   - attr_list
+plugins:
+  - search:
+      separator: '[^\w]+'

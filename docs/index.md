@@ -1,3 +1,8 @@
+---
+search:
+  boost: 0.5 # rank down in search
+---
+
 # Übersicht
 
 ## Aktuell in der engeren Auswahl
@@ -7,7 +12,7 @@
 - [fairgate](./fairgate.md) - noch per Demoversion genauer zu testen
 - [Hitobito](./hitobito.md) - noch per Demoversion genauer zu testen
 
-## Anforderungskatalog
+## Anforderungskatalog { data-search-exclude }
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link
   type="text/css"
