@@ -1,6 +1,5 @@
 site_name: KjG MiDa - Vergleich von existierenden Softwarelösungen
-# site_url: https://github.com/kjg-mida-comparison/
-site_url: http://localhost:8000/
+site_url: https://kjg-bad-abbach.github.io/kjg-mida-comparison/
 theme:
   name: material
   palette:
@@ -25,3 +24,4 @@ markdown_extensions:
 plugins:
   - search:
       separator: '[^\w]+'
+      lang: de
