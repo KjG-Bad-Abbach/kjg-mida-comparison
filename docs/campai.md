@@ -1,6 +1,6 @@
 # campai
 
-[Website](https://www.campai.com)
+[Website](https://www.campai.com){ target="_blank" }
 
 ## Stammdatenpflege
 
@@ -64,7 +64,7 @@
 
 ![Mitgliederanmeldung](assets/campai/mitgliedsantrag.webp){ width="500" }
 
-[Viele weitere Funktionen](https://www.campai.com/funktionen/formulare)
+[Viele weitere Funktionen](https://www.campai.com/funktionen/formulare){ target="_blank" }
 
 ## Mitgliederstatistiken
 
@@ -84,7 +84,7 @@
 
 ### Buchführung
 
-[Viele weitere Funktionen](https://www.campai.com/funktionen/vereinsbuchhaltung)
+[Viele weitere Funktionen](https://www.campai.com/funktionen/vereinsbuchhaltung){ target="_blank" }
 
 #### Buchen
 
@@ -104,7 +104,7 @@
 
 ### Rechnungsstellung
 
-[Viele weitere Funktionen](https://www.campai.com/funktionen/abrechnung-kasse)
+[Viele weitere Funktionen](https://www.campai.com/funktionen/abrechnung-kasse){ target="_blank" }
 
 #### Rechnungsvorlagen
 
@@ -124,13 +124,13 @@
 
 ## Veranstaltungsmodul
 
-[Soll es geben](https://www.campai.com/funktionen/kursverwaltung), aber gibt keine Details darüber.
+[Soll es geben](https://www.campai.com/funktionen/kursverwaltung){ target="_blank" }, aber gibt keine Details darüber.
 
 ### Anmeldeformulare
 
-[Soll es geben](https://www.campai.com/funktionen/kursverwaltung), aber gibt keine Details darüber.
+[Soll es geben](https://www.campai.com/funktionen/kursverwaltung){ target="_blank" }, aber gibt keine Details darüber.
 
 ## Zusätzliche Funktionen
 
-- [API](https://www.campai.com/entwickler)
-- [Formulare](https://www.campai.com/funktionen/formulare)
+- [API](https://www.campai.com/entwickler){ target="_blank" }
+- [Formulare](https://www.campai.com/funktionen/formulare){ target="_blank" }
