@@ -1,0 +1,23 @@
+site_name: KjG MiDa - Vergleich von existierenden Softwarelösungen
+# site_url: https://github.com/kjg-mida-comparison/
+site_url: http://localhost:8000/
+theme:
+  name: material
+  palette:
+    primary: cyan
+    accent: teal
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    # - navigation.indexes
+    - toc.follow
+    - toc.integrate
+markdown_extensions:
+  - attr_list

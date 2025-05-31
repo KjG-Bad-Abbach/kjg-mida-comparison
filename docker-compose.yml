@@ -1,0 +1,16 @@
+services:
+  app:
+    container_name: kjg-mida-comparison
+    build: .
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - .:/docs
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
