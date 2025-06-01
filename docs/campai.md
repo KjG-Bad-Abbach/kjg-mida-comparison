@@ -4,8 +4,6 @@
 
 ## Stammdatenpflege
 
-<span style="display:none">keyword1 keyword2 keyword3</span>
-
 ![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }
 
 ### Mitglied
