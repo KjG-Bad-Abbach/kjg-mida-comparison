@@ -4,15 +4,15 @@
 
 ## Stammdatenpflege
 
-![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }
+[![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }](assets/campai/stammdatenpflege_uebersicht.webp)
 
 ### Mitglied
 
-![Mitglied](assets/campai/stammdatenpflege_mitglied.webp){ width="500" }
+[![Mitglied](assets/campai/stammdatenpflege_mitglied.webp){ width="500" }](assets/campai/stammdatenpflege_mitglied.webp)
 
 ### Eigene Felder
 
-![Eigene Felder](assets/campai/stammdatenpflege_eigene_felder.webp){ width="500" }
+[![Eigene Felder](assets/campai/stammdatenpflege_eigene_felder.webp){ width="500" }](assets/campai/stammdatenpflege_eigene_felder.webp)
 
 ### Nachweisverwaltung
 
@@ -20,11 +20,11 @@
 
 ## Mailversand
 
-![Mailversand](assets/campai/mailversand_uebersicht.webp){ width="500" }
+[![Mailversand](assets/campai/mailversand_uebersicht.webp){ width="500" }](assets/campai/mailversand_uebersicht.webp)
 
 ### Vorlagen
 
-![Vorlagen](assets/campai/mailversand_vorlagen.webp){ width="500" }
+[![Vorlagen](assets/campai/mailversand_vorlagen.webp){ width="500" }](assets/campai/mailversand_vorlagen.webp)
 
 ## Externe Kontakte
 
@@ -32,53 +32,53 @@
 
 ## Mitgliedsbeiträge
 
-![Mitgliedsbeiträge](assets/campai/mitgliedsbeitraege_uebersicht.webp){ width="500" }
+[![Mitgliedsbeiträge](assets/campai/mitgliedsbeitraege_uebersicht.webp){ width="500" }](assets/campai/mitgliedsbeitraege_uebersicht.webp)
 
 ### Wiederkehrende Beiträge
 
-![Wiederkehrende Beiträge](assets/campai/mitgliedsbeitraege_wiederkehrend.webp){ width="500" }
+[![Wiederkehrende Beiträge](assets/campai/mitgliedsbeitraege_wiederkehrend.webp){ width="500" }](assets/campai/mitgliedsbeitraege_wiederkehrend.webp)
 
 ### Individuelle Beiträge
 
-![Individuelle Beiträge](assets/campai/mitgliedsbeitraege_individuell.png){ width="500" }
+[![Individuelle Beiträge](assets/campai/mitgliedsbeitraege_individuell.png){ width="500" }](assets/campai/mitgliedsbeitraege_individuell.png)
 
 ### Beitrags-Regeln
 
-![Beitrags-Regeln](assets/campai/mitgliedsbeitraege_regeln.png){ width="500" }
+[![Beitrags-Regeln](assets/campai/mitgliedsbeitraege_regeln.png){ width="500" }](assets/campai/mitgliedsbeitraege_regeln.png)
 
 ### Beitrags-Einzug
 
-![Beitrags-Einzug](assets/campai/mitgliedsbeitraege_einzug.png){ width="500" }
+[![Beitrags-Einzug](assets/campai/mitgliedsbeitraege_einzug.png){ width="500" }](assets/campai/mitgliedsbeitraege_einzug.png)
 
 ## Rollen / Rechte
 
-![Rollen / Rechte](assets/campai/rollen_rechte.webp){ width="500" }
+[![Rollen / Rechte](assets/campai/rollen_rechte.webp){ width="500" }](assets/campai/rollen_rechte.webp)
 
 ## Gruppen / Teams
 
-![Gruppen / Teams](assets/campai/gruppen.webp){ width="500" }
+[![Gruppen / Teams](assets/campai/gruppen.webp){ width="500" }](assets/campai/gruppen.webp)
 
 ## Mitgliederanmeldung
 
-![Mitgliederanmeldung](assets/campai/mitgliedsantrag.webp){ width="500" }
+[![Mitgliederanmeldung](assets/campai/mitgliedsantrag.webp){ width="500" }](assets/campai/mitgliedsantrag.webp)
 
 [Viele weitere Funktionen](https://www.campai.com/funktionen/formulare){ target="_blank" }
 
 ## Mitgliederstatistiken
 
-![Übersicht](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }
+[![Übersicht](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }](assets/campai/stammdatenpflege_uebersicht.webp)
 
-![Statistik 1](assets/campai/statistik1.webp){ width="500" }
+[![Statistik 1](assets/campai/statistik1.webp){ width="500" }](assets/campai/statistik1.webp)
 
-![Statistik 2](assets/campai/statistik2.png){ width="500" }
+[![Statistik 2](assets/campai/statistik2.png){ width="500" }](assets/campai/statistik2.png)
 
 ## Datensatzsuche
 
-![Suche](assets/campai/filter_suche.png){ width="500" }
+[![Suche](assets/campai/filter_suche.png){ width="500" }](assets/campai/filter_suche.png)
 
 ## Kassenmodul
 
-![Übersicht](assets/campai/kassenmodul_uebersicht.webp){ width="500" }
+[![Übersicht](assets/campai/kassenmodul_uebersicht.webp){ width="500" }](assets/campai/kassenmodul_uebersicht.webp)
 
 ### Buchführung
 
@@ -86,19 +86,19 @@
 
 #### Buchen
 
-![Buchen](assets/campai/kassenmodul_buchen.webp){ width="500" }
+[![Buchen](assets/campai/kassenmodul_buchen.webp){ width="500" }](assets/campai/kassenmodul_buchen.webp)
 
 #### Filtern
 
-![Filtern](assets/campai/kassenmodul_filter.webp){ width="500" }
+[![Filtern](assets/campai/kassenmodul_filter.webp){ width="500" }](assets/campai/kassenmodul_filter.webp)
 
 #### Kostenstellen
 
-![Kostenstellen](assets/campai/kassenmodul_kostenstellen.webp){ width="500" }
+[![Kostenstellen](assets/campai/kassenmodul_kostenstellen.webp){ width="500" }](assets/campai/kassenmodul_kostenstellen.webp)
 
 #### Split-Buchungen
 
-![Split-Buchungen](assets/campai/kassenmodul_split_buchungen.webp){ width="500" }
+[![Split-Buchungen](assets/campai/kassenmodul_split_buchungen.webp){ width="500" }](assets/campai/kassenmodul_split_buchungen.webp)
 
 ### Rechnungsstellung
 
@@ -106,19 +106,19 @@
 
 #### Rechnungsvorlagen
 
-![Rechnungsvorlagen](assets/campai/kassenmodul_rechnungsvorlagen.webp){ width="500" }
+[![Rechnungsvorlagen](assets/campai/kassenmodul_rechnungsvorlagen.webp){ width="500" }](assets/campai/kassenmodul_rechnungsvorlagen.webp)
 
 #### Massenrechnungen
 
-![Massenrechnungen](assets/campai/kassenmodul_massenrechnungen.png){ width="500" }
+[![Massenrechnungen](assets/campai/kassenmodul_massenrechnungen.png){ width="500" }](assets/campai/kassenmodul_massenrechnungen.png)
 
 #### Rechnungsstatus
 
-![Rechnungsstatus](assets/campai/kassenmodul_rechnungsstatus.webp){ width="500" }
+[![Rechnungsstatus](assets/campai/kassenmodul_rechnungsstatus.webp){ width="500" }](assets/campai/kassenmodul_rechnungsstatus.webp)
 
 #### Mahnungen
 
-![Mahnungen](assets/campai/kassenmodul_mahnungen.png){ width="500" }
+[![Mahnungen](assets/campai/kassenmodul_mahnungen.png){ width="500" }](assets/campai/kassenmodul_mahnungen.png)
 
 ## Veranstaltungsmodul
 
