@@ -92,9 +92,9 @@
 
 [Quelle](https://my.campflow.de/lists/lst_jlz33UEDQhLYMtyvtpOA)
 
-## Mitgliederanmeldung
+## Mitgliedsantrag
 
-[![Mitgliederanmeldung](assets/campflow/mitgliedsantrag.png){ width="500" }](assets/campflow/mitgliedsantrag.png)
+[![Mitgliedsantrag](assets/campflow/mitgliedsantrag.png){ width="500" }](assets/campflow/mitgliedsantrag.png)
 
 [Quelle](https://my.campflow.de/lists/lst_jlz33UEDQhLYMtyvtpOA)
 

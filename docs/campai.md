@@ -86,9 +86,9 @@
 
 [Quelle](https://www.campai.com/funktionen/mitgliederverwaltung)
 
-## Mitgliederanmeldung
+## Mitgliedsantrag
 
-[![Mitgliederanmeldung](assets/campai/mitgliedsantrag.webp){ width="500" }](assets/campai/mitgliedsantrag.webp)
+[![Mitgliedsantrag](assets/campai/mitgliedsantrag.webp){ width="500" }](assets/campai/mitgliedsantrag.webp)
 
 [Quelle](https://www.campai.com/funktionen/formulare)
 
