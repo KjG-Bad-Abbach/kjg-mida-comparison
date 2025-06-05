@@ -12,9 +12,20 @@ search:
 ## Aktuell in der engeren Auswahl
 
 - [campai](./campai.md)
+
+    [![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }](assets/campai/stammdatenpflege_uebersicht.webp)
+
 - [campflow](./campflow.md)
+
+    [![Stammdaten](assets/campflow/stammdatenpflege_uebersicht.png){ width="500" }](assets/campflow/stammdatenpflege_uebersicht.png)
+
 - [fairgate](./fairgate.md) - noch per Demoversion genauer zu testen
+
+    [![Stammdaten](assets/fairgate/stammdatenpflege_uebersicht.png){ width="500" }](assets/fairgate/stammdatenpflege_uebersicht.png)
+
 - [Hitobito](./hitobito.md) - DPSG
+
+    [![Stammdaten](assets/hitobito/stammdatenpflege_uebersicht.png){ width="500" }](assets/hitobito/stammdatenpflege_uebersicht.png)
 
 ## Anforderungskatalog
 
