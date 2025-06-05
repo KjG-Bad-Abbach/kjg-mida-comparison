@@ -247,3 +247,7 @@ Text- und Layout-Vorlagen.
 [![Website](assets/fairgate/veranstaltungsmodul_anbindung_website.png){ width="500" }](assets/fairgate/veranstaltungsmodul_anbindung_website.png)
 
 [Quelle](https://fairgate.de/kurs-und-eventmodul/)
+
+## Zusätzliche Funktionen
+
+- [API nur für Kontakte](https://support.fairgate.ch/de/kb/articles/fsa-das-standard-api-von-fairgate){ target="_blank" }
