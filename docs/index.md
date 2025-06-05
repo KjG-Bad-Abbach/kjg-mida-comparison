@@ -9,28 +9,28 @@ search:
   <img src="assets/QRCode.jpeg" alt="Website" style="max-width: 100%; max-height: 100%;" />
 </div>
 
-## Aktuell in der engeren Auswahl
+## Tool-Landschaft
 
-- [campai](./campai.md)
-
-    [![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }](assets/campai/stammdatenpflege_uebersicht.webp)
-
-- [campflow](./campflow.md)
-
-    [![Stammdaten](assets/campflow/stammdatenpflege_uebersicht.png){ width="500" }](assets/campflow/stammdatenpflege_uebersicht.png)
-
-- [fairgate](./fairgate.md) - noch per Demoversion genauer zu testen
-
-    [![Stammdaten](assets/fairgate/stammdatenpflege_uebersicht.png){ width="500" }](assets/fairgate/stammdatenpflege_uebersicht.png)
-
-- ([Hitobito](./hitobito.md) - DPSG)
-
-    [![Stammdaten](assets/hitobito/stammdatenpflege_uebersicht.png){ width="500" }](assets/hitobito/stammdatenpflege_uebersicht.png)
+[![Tool-Landschaft](assets/2025-03-14_Konzeption_Digitale_Tools_KjG.jpg)](assets/2025-03-14_Konzeption_Digitale_Tools_KjG.jpg)
 
 ## Anforderungskatalog
 
 Kann über separaten Link eingesehen werden.
 
-## Tool-Landschaft
+## Aktuell in der engeren Auswahl
 
-![Tool-Landschaft](assets/2025-03-14_Konzeption_Digitale_Tools_KjG.jpg)
+- [campai](./campai.md)
+
+    [![Stammdaten](assets/campai/stammdatenpflege_uebersicht.webp){ width="500" }](./campai.md)
+
+- [campflow](./campflow.md)
+
+    [![Stammdaten](assets/campflow/stammdatenpflege_uebersicht.png){ width="500" }](./campflow.md)
+
+- [fairgate](./fairgate.md) - noch per Demoversion genauer zu testen
+
+    [![Stammdaten](assets/fairgate/stammdatenpflege_uebersicht.png){ width="500" }](./fairgate.md)
+
+- ([Hitobito](./hitobito.md) - DPSG)
+
+    [![Stammdaten](assets/hitobito/stammdatenpflege_uebersicht.png){ width="500" }](./hitobito.md)
