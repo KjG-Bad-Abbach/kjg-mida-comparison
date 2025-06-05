@@ -23,7 +23,7 @@ search:
 
     [![Stammdaten](assets/fairgate/stammdatenpflege_uebersicht.png){ width="500" }](assets/fairgate/stammdatenpflege_uebersicht.png)
 
-- [Hitobito](./hitobito.md) - DPSG
+- ([Hitobito](./hitobito.md) - DPSG)
 
     [![Stammdaten](assets/hitobito/stammdatenpflege_uebersicht.png){ width="500" }](assets/hitobito/stammdatenpflege_uebersicht.png)
 
