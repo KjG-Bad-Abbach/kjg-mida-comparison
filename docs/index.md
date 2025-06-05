@@ -14,7 +14,7 @@ search:
 - [campai](./campai.md)
 - [campflow](./campflow.md)
 - [fairgate](./fairgate.md) - noch per Demoversion genauer zu testen
-- [Hitobito](./hitobito.md) - noch per Demoversion genauer zu testen
+- [Hitobito](./hitobito.md) - DPSG
 
 ## Anforderungskatalog
 
