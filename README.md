@@ -25,3 +25,11 @@ We use MkDocs. For full documentation visit [mkdocs.org](https://www.mkdocs.org)
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
