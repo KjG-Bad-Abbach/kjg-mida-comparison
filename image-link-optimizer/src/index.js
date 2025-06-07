@@ -27,7 +27,9 @@ async function fetchImage(url, currentFolder) {
 }
 
 async function resizeImage(imageBuffer, imageWidth) {
-  return await sharp(imageBuffer).resize({ width: imageWidth }).toBuffer();
+  return await sharp(imageBuffer)
+    .resize({ width: imageWidth, fit: "inside", kernel: sharp.kernel.lanczos3 })
+    .toBuffer();
 }
 
 async function replaceImageLinksInMarkdown(filePath) {
