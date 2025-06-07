@@ -1,0 +1,956 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://kjg-bad-abbach.github.io/kjg-mida-comparison/campai/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../campflow/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>campai - KjG MiDa - Vergleich von existierenden Softwarelösungen</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#campai" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="KjG MiDa - Vergleich von existierenden Softwarelösungen" class="md-header__button md-logo" aria-label="KjG MiDa - Vergleich von existierenden Softwarelösungen" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            KjG MiDa - Vergleich von existierenden Softwarelösungen
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              campai
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Übersicht
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  campai
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../campflow/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  campflow
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fairgate/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  fairgate
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../hitobito/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Hitobito
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="KjG MiDa - Vergleich von existierenden Softwarelösungen" class="md-nav__button md-logo" aria-label="KjG MiDa - Vergleich von existierenden Softwarelösungen" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    KjG MiDa - Vergleich von existierenden Softwarelösungen
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Übersicht
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    campai
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    campai
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stammdatenpflege" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stammdatenpflege
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stammdatenpflege">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mitglied" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitglied
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eigene-felder" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eigene Felder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nachweisverwaltung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nachweisverwaltung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mailversand" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mailversand
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mailversand">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vorlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vorlagen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#externe-kontakte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Externe Kontakte
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitgliedsbeitrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitgliedsbeiträge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mitgliedsbeiträge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wiederkehrende-beitrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wiederkehrende Beiträge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#individuelle-beitrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individuelle Beiträge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beitrags-regeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beitrags-Regeln
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beitrags-einzug" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beitrags-Einzug
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollen-rechte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rollen / Rechte
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gruppen-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gruppen / Teams
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitgliedsantrag" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitgliedsantrag
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitgliederstatistiken" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mitgliederstatistiken
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datensatzsuche" class="md-nav__link">
+    <span class="md-ellipsis">
+      Datensatzsuche
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kassenmodul" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kassenmodul
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kassenmodul">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buchfuhrung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buchführung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Buchführung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buchen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buchen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtern
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kostenstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kostenstellen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#split-buchungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Split-Buchungen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rechnungsstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rechnungsstellung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rechnungsstellung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rechnungsvorlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rechnungsvorlagen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#massenrechnungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Massenrechnungen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rechnungsstatus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rechnungsstatus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mahnungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mahnungen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veranstaltungsmodul" class="md-nav__link">
+    <span class="md-ellipsis">
+      Veranstaltungsmodul
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Veranstaltungsmodul">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anmeldeformulare" class="md-nav__link">
+    <span class="md-ellipsis">
+      Anmeldeformulare
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zusatzliche-funktionen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zusätzliche Funktionen
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../campflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    campflow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fairgate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    fairgate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hitobito/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hitobito
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="campai">campai</h1>
+<div style="position: fixed; bottom: 24px; right: 24px; z-index: 1000; width: 140px; height: 140px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; padding: 8px;">
+  <img src="../assets/QRCode.jpeg" alt="Website" style="max-width: 100%; max-height: 100%;" />
+</div>
+
+<p><a href="https://www.campai.com" target="_blank">Website</a></p>
+<h2 id="stammdatenpflege">Stammdatenpflege</h2>
+<p><a href="../assets/campai/stammdatenpflege_uebersicht.webp"><img alt="Stammdaten" src="../assets/campai/stammdatenpflege_uebersicht-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h3 id="mitglied">Mitglied</h3>
+<p><a href="../assets/campai/stammdatenpflege_mitglied.webp"><img alt="Mitglied" src="../assets/campai/stammdatenpflege_mitglied-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h3 id="eigene-felder">Eigene Felder</h3>
+<p><a href="../assets/campai/stammdatenpflege_eigene_felder.webp"><img alt="Eigene Felder" src="../assets/campai/stammdatenpflege_eigene_felder-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h3 id="nachweisverwaltung">Nachweisverwaltung</h3>
+<p><img alt="Wiedervorlage" src="../assets/campai/stammdatenpflege_wiedervorlage-x250.png" width="250" /></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h2 id="mailversand">Mailversand</h2>
+<p><a href="../assets/campai/mailversand_uebersicht.webp"><img alt="Mailversand" src="../assets/campai/mailversand_uebersicht-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/kommunikation">Quelle</a></p>
+<h3 id="vorlagen">Vorlagen</h3>
+<p><a href="../assets/campai/mailversand_vorlagen.webp"><img alt="Vorlagen" src="../assets/campai/mailversand_vorlagen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/kommunikation">Quelle</a></p>
+<h2 id="externe-kontakte">Externe Kontakte</h2>
+<p><img alt="Externe Kontakte" src="../assets/campai/externe_kontakte_uebersicht-x250.png" width="250" /></p>
+<p><a href="https://www.campai.com/funktionen/kommunikation">Quelle</a></p>
+<h2 id="mitgliedsbeitrage">Mitgliedsbeiträge</h2>
+<p><a href="../assets/campai/mitgliedsbeitraege_uebersicht.webp"><img alt="Mitgliedsbeiträge" src="../assets/campai/mitgliedsbeitraege_uebersicht-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/beitragsverwaltung">Quelle</a></p>
+<h3 id="wiederkehrende-beitrage">Wiederkehrende Beiträge</h3>
+<p><a href="../assets/campai/mitgliedsbeitraege_wiederkehrend.webp"><img alt="Wiederkehrende Beiträge" src="../assets/campai/mitgliedsbeitraege_wiederkehrend-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/beitragsverwaltung">Quelle</a></p>
+<h3 id="individuelle-beitrage">Individuelle Beiträge</h3>
+<p><a href="../assets/campai/mitgliedsbeitraege_individuell.png"><img alt="Individuelle Beiträge" src="../assets/campai/mitgliedsbeitraege_individuell-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/beitragsverwaltung">Quelle</a></p>
+<h3 id="beitrags-regeln">Beitrags-Regeln</h3>
+<p><a href="../assets/campai/mitgliedsbeitraege_regeln.png"><img alt="Beitrags-Regeln" src="../assets/campai/mitgliedsbeitraege_regeln-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/beitragsverwaltung">Quelle</a></p>
+<h3 id="beitrags-einzug">Beitrags-Einzug</h3>
+<p><a href="../assets/campai/mitgliedsbeitraege_einzug.png"><img alt="Beitrags-Einzug" src="../assets/campai/mitgliedsbeitraege_einzug-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/beitragsverwaltung">Quelle</a></p>
+<h2 id="rollen-rechte">Rollen / Rechte</h2>
+<p><a href="../assets/campai/rollen_rechte.webp"><img alt="Rollen / Rechte" src="../assets/campai/rollen_rechte-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h2 id="gruppen-teams">Gruppen / Teams</h2>
+<p><a href="../assets/campai/gruppen.webp"><img alt="Gruppen / Teams" src="../assets/campai/gruppen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h2 id="mitgliedsantrag">Mitgliedsantrag</h2>
+<p><a href="../assets/campai/mitgliedsantrag.webp"><img alt="Mitgliedsantrag" src="../assets/campai/mitgliedsantrag-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/formulare">Quelle</a></p>
+<p><a href="https://www.campai.com/funktionen/formulare" target="_blank">Viele weitere Funktionen</a></p>
+<h2 id="mitgliederstatistiken">Mitgliederstatistiken</h2>
+<p><a href="../assets/campai/stammdatenpflege_uebersicht.webp"><img alt="Übersicht" src="../assets/campai/stammdatenpflege_uebersicht-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<p><a href="../assets/campai/statistik1.webp"><img alt="Statistik 1" src="../assets/campai/statistik1-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<p><a href="../assets/campai/statistik2.png"><img alt="Statistik 2" src="../assets/campai/statistik2-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h2 id="datensatzsuche">Datensatzsuche</h2>
+<p><a href="../assets/campai/filter_suche.png"><img alt="Suche" src="../assets/campai/filter_suche-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/mitgliederverwaltung">Quelle</a></p>
+<h2 id="kassenmodul">Kassenmodul</h2>
+<p><a href="../assets/campai/kassenmodul_uebersicht.webp"><img alt="Übersicht" src="../assets/campai/kassenmodul_uebersicht-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung">Quelle</a></p>
+<h3 id="buchfuhrung">Buchführung</h3>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung" target="_blank">Viele weitere Funktionen</a></p>
+<h4 id="buchen">Buchen</h4>
+<p><a href="../assets/campai/kassenmodul_buchen.webp"><img alt="Buchen" src="../assets/campai/kassenmodul_buchen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung">Quelle</a></p>
+<h4 id="filtern">Filtern</h4>
+<p><a href="../assets/campai/kassenmodul_filter.webp"><img alt="Filtern" src="../assets/campai/kassenmodul_filter-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung">Quelle</a></p>
+<h4 id="kostenstellen">Kostenstellen</h4>
+<p><a href="../assets/campai/kassenmodul_kostenstellen.webp"><img alt="Kostenstellen" src="../assets/campai/kassenmodul_kostenstellen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung">Quelle</a></p>
+<h4 id="split-buchungen">Split-Buchungen</h4>
+<p><a href="../assets/campai/kassenmodul_split_buchungen.webp"><img alt="Split-Buchungen" src="../assets/campai/kassenmodul_split_buchungen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/vereinsbuchhaltung">Quelle</a></p>
+<h3 id="rechnungsstellung">Rechnungsstellung</h3>
+<p><a href="https://www.campai.com/funktionen/abrechnung-kasse" target="_blank">Viele weitere Funktionen</a></p>
+<h4 id="rechnungsvorlagen">Rechnungsvorlagen</h4>
+<p><a href="../assets/campai/kassenmodul_rechnungsvorlagen.webp"><img alt="Rechnungsvorlagen" src="../assets/campai/kassenmodul_rechnungsvorlagen-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/abrechnung-kasse">Quelle</a></p>
+<h4 id="massenrechnungen">Massenrechnungen</h4>
+<p><a href="../assets/campai/kassenmodul_massenrechnungen.png"><img alt="Massenrechnungen" src="../assets/campai/kassenmodul_massenrechnungen-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/abrechnung-kasse">Quelle</a></p>
+<h4 id="rechnungsstatus">Rechnungsstatus</h4>
+<p><a href="../assets/campai/kassenmodul_rechnungsstatus.webp"><img alt="Rechnungsstatus" src="../assets/campai/kassenmodul_rechnungsstatus-x500.webp" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/abrechnung-kasse">Quelle</a></p>
+<h4 id="mahnungen">Mahnungen</h4>
+<p><a href="../assets/campai/kassenmodul_mahnungen.png"><img alt="Mahnungen" src="../assets/campai/kassenmodul_mahnungen-x500.png" width="500" /></a></p>
+<p><a href="https://www.campai.com/funktionen/abrechnung-kasse">Quelle</a></p>
+<h2 id="veranstaltungsmodul">Veranstaltungsmodul</h2>
+<p><a href="https://www.campai.com/funktionen/kursverwaltung" target="_blank">Soll es geben</a>, aber gibt keine Details darüber.</p>
+<h3 id="anmeldeformulare">Anmeldeformulare</h3>
+<p><a href="https://www.campai.com/funktionen/kursverwaltung" target="_blank">Soll es geben</a>, aber gibt keine Details darüber.</p>
+<h2 id="zusatzliche-funktionen">Zusätzliche Funktionen</h2>
+<ul>
+<li><a href="https://www.campai.com/entwickler" target="_blank">API</a></li>
+<li><a href="https://www.campai.com/funktionen/formulare" target="_blank">Formulare</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.path", "toc.follow", "toc.integrate", "search.suggest"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
