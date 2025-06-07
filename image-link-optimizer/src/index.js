@@ -4,6 +4,8 @@ const axios = require("axios");
 const sharp = require("sharp");
 const { v1: uuidv1 } = require("uuid");
 
+const factorOverSize = 1.5; // Factor to oversize images by 50% before resizing
+
 async function fetchImage(url, currentFolder) {
   const isWebUrl = url.startsWith("http://") || url.startsWith("https://");
   if (isWebUrl) {
@@ -28,7 +30,7 @@ async function fetchImage(url, currentFolder) {
 
 async function resizeImage(imageBuffer, imageWidth) {
   return await sharp(imageBuffer)
-    .resize({ width: imageWidth, fit: "inside", kernel: sharp.kernel.lanczos3 })
+    .resize({ width: imageWidth * factorOverSize, fit: "inside", kernel: sharp.kernel.lanczos3 })
     .toBuffer();
 }
 
