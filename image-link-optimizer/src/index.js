@@ -78,7 +78,7 @@ async function replaceImageLinksInMarkdown(filePath) {
         .relative(currentFolder, newImagePath)
         .replace(/\\/g, "/");
       // Replace the original link with the new optimized image link
-      const newLink = `![${description}](${newImagePathRelative})${options}`;
+      const newLink = `![${description}](${newImagePathRelative}){${options}}`;
       content = content.replace(link, newLink);
     }
   }
