@@ -10,10 +10,10 @@ importers:
     dependencies:
       axios:
         specifier: ^1.0.0
-        version: 1.9.0
+        version: 1.9.0(debug@4.4.1(supports-color@5.5.0))
       fs-extra:
         specifier: ^11.0.0
-        version: 11.3.0
+        version: 11.4.0
       markdown-it:
         specifier: ^14.0.0
         version: 14.1.0
@@ -263,8 +263,8 @@ packages:
     resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
     engines: {node: '>= 6'}
 
-  fs-extra@11.3.0:
-    resolution: {integrity: sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==}
+  fs-extra@11.4.0:
+    resolution: {integrity: sha512-EQsFzMUJkCKGr1ePqlYADkIUmHW1s3ZXr5Yqy6wbGrfUCphpl2maM/kyOIRA2HpP3AaFQTZXD4ldjek+nccddA==}
     engines: {node: '>=14.14'}
 
   fsevents@2.3.3:
@@ -532,9 +532,9 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  axios@1.9.0:
+  axios@1.9.0(debug@4.4.1(supports-color@5.5.0)):
     dependencies:
-      follow-redirects: 1.15.9
+      follow-redirects: 1.15.9(debug@4.4.1(supports-color@5.5.0))
       form-data: 4.0.3
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -629,7 +629,9 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  follow-redirects@1.15.9: {}
+  follow-redirects@1.15.9(debug@4.4.1(supports-color@5.5.0)):
+    optionalDependencies:
+      debug: 4.4.1(supports-color@5.5.0)
 
   form-data@4.0.3:
     dependencies:
@@ -639,7 +641,7 @@ snapshots:
       hasown: 2.0.2
       mime-types: 2.1.35
 
-  fs-extra@11.3.0:
+  fs-extra@11.4.0:
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 6.1.0
